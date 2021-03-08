@@ -12,12 +12,9 @@ Build your circuit according to this schematic:
 
 Be sure you have used the "Servo" library that comes with the Codebender.edu app we use in class.  After testing it out, revise the code to do the following:
 
-
+1. Pick three random numbers between 0 and 180 using [this website](https://www.calculator.net/random-number-generator.html?slower=1&supper=180&ctype=1&s=1378&submit1=Generate)
+2. Make the servo move to these three positions every second repeating forever.
 
 ### Step Three: Debug and Submit
 
-Make sure your prototype behaves the same way as the demo in class. *Make three new files and commit them to this repository on GitHub*. Name them as follows:
-
-    - 4.1-L298N-1.ino
-    - 4.1-L298N-2.ino
-    - 4.1-L298n-3.ino
+Make sure your prototype behaves correctly and submit the code here titled 4.3_Servo.ino

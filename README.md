@@ -1,27 +1,18 @@
-# Arduino 4.1 - Utilizing the L298N Motor Controller
-## The L298N motor controller is a great way to use DC motors in conjunction with a programmable board like the Arduino UNO.  It allows us to utilize very basic coding techniques without any additional libraries.  It supports power supplies from 5V to 25V. 
+# Arduino 4.3 - Servo Control
+## The SG90 Servo is a simple three-wire servo that is simple to use.  For this assignment you will need to review how to add a library to the Codebender app. 
 ---
 
 ### Step One: Build the Circuit
 
 Build your circuit according to this schematic:
 
-![](https://github.com/WHS-Robotics-Classes/4-1_Utilizing_the_L298N_Motor_Controller/blob/main/4.1-L298N_Wiring.PNG?raw=true)
+![](https://github.com/WHS-Robotics-Classes/4-3_Servo_Control/blob/main/Servo.PNG?raw=true)
 
 ### Step Two: Write the Code
 
-Review concepts of digital and analog (PWM) control systems from previous labs.  Be sure that you are able to control LEDs with the `digitalWrite()` and `analogWrite()` commands.  Once you are confident with that, move on.
+Be sure you have used the "Servo" library that comes with the Codebender.edu app we use in class.  After testing it out, revise the code to do the following:
 
-Concept Overview:  If we can make a light turn on and off we can control the direction of the motor.  For example, to control the direction of motor A in the figure above we would turn on pin IN1 and turn off pin IN2 using `digitalWrite()`.  To reverse the motor you reverse the commands.  To control the speed of that motor we would use the `analogWrite()` command with pin ENA.  Once we have this concept down, we can control the motors’ speed and direction.
 
-**Write three different sketches.  Each should do the following:**
-1. Start motor B at full speed for five seconds and then stop.
-2. Make motor A ramp up speed from fully stopped to full speed over the course of five seconds and then ramp back down to fully stopped over the course of five seconds.
-3. Make both motors do the following: 
-    - Run at half speed for three seconds.
-    - Stop motor A completely and run motor B on full for two seconds.
-    - Run motor A in reverse and motor B forward, both on full speed, for two seconds.
-    - Stop both motors.
 
 ### Step Three: Debug and Submit
 

@@ -10,7 +10,7 @@ Build your circuit according to this schematic:
 
 ### Step Two: Write the Code
 
-Be sure you have used the "Servo" library that comes with the Codebender.edu app we use in class.  After testing it out, revise the code to do the following:
+Be sure you have used the "Servo" library that comes with the Arduino Web Editor we use in class.  After testing it out, revise the code to do the following:
 
 1. Pick three random numbers between 0 and 180 using [this website](https://www.calculator.net/random-number-generator.html?slower=1&supper=180&ctype=1&s=1378&submit1=Generate)
 2. Make the servo move to these three positions every second repeating forever.

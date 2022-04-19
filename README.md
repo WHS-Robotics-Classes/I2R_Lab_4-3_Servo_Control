@@ -15,6 +15,8 @@ Be sure you have used the "Servo" library that comes with the Arduino Web Editor
 1. Pick three random numbers between 0 and 180 using [this website](https://www.calculator.net/random-number-generator.html?slower=1&supper=180&ctype=1&s=1378&submit1=Generate)
 2. Make the servo move to these three positions every second repeating forever.
 
+[![3.6_Video](http://img.youtube.com/vi/zhja4K46mIE/0.jpg)](https://www.youtube.com/watch?v=zhja4K46mIE "4.3-Servo_Control")
+
 ### Step Three: Debug and Submit
 
 Make sure your prototype behaves correctly and submit the code here titled 4.3_Servo.ino

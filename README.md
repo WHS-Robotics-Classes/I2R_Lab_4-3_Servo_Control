@@ -1,5 +1,5 @@
 # Arduino 4.3 - Servo Control
-## The SG90 Servo is a simple three-wire servo that is simple to use.  For this assignment you will need to review how to add a library to the Codebender app. 
+## The SG90 Servo is a simple three-wire servo that is simple to use.  For this assignment you will need to review how to add a library to the Arduino app. 
 ---
 
 ### Step One: Build the Circuit
